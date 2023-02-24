@@ -1,0 +1,102 @@
+#shop .icon {
+  box-shadow: rgba(36, 36, 16, 0.12) 0px 3px 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+#shop .icon-head {
+  display: flex;
+  font-size: 1rem;
+  font-size: 1.2rem;
+}
+#shop .icon button {
+  width: 240px;
+  height: 2.5rem;
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: #dcb722;
+  color: white;
+  outline: none;
+  border: none;
+}
+#shop .icon button:hover {
+  background-color: #e6be1f;
+  box-shadow: rgba(0, 0, 255, 0.171) 0px 2px 10px;
+}
+#shop .icon button:active {
+  transform: scale(0.9);
+  transition: 0.2s;
+}
+.price p {
+  margin: 0.5rem 0.5rem;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+#shop h3 {
+  margin: 30px 0;
+}
+
+#shop .two button {
+  width: 240px;
+  height: 2.5rem;
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+#shop .two button:hover {
+  background-color: #1f30e6;
+  box-shadow: rgba(0, 0, 255, 0.109) 0px 2px 10px;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icon {
+  margin: 0.7rem;
+  flex-grow: 1;
+}
+
+/*contact us*/
+.main-contact {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 1.2;
+  justify-content: space-around;
+}
+
+.form input {
+  height: 2.4rem;
+}
+.form input,
+textarea {
+  width: 100%;
+}
+
+.main-contact .contact-info {
+  margin: 0 0.8rem;
+}
+
+.form {
+  padding: 0.8rem 0.5rem;
+  max-width: 400px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.details p {
+  margin: 0.5rem 0;
+}
